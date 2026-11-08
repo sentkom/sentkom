@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Explore SENTKOM creative, design and technology services."
+    />
+    <title>Our Services | SENTKOM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="scroll-progress" aria-hidden="true"></div>
+    <header class="header page-header">
+      <a
+        class="header-back"
+        href="index.html#services"
+        aria-label="Back to services"
+        title="Back to services"
+        >←</a
+      >
+      <a class="brand" href="index.html#home"
+        ><img
+          class="brand-logo"
+          src="sentkom-logo.png"
+          alt="SENTKOM logo"
+        /><span class="brand-copy"
+          ><b>SENT<span>KOM</span></b
+          ><small>Creative &amp; Technology Solutions</small></span
+        ></a
+      >
+      <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+      <nav class="nav">
+        <a href="index.html#home">Home</a><a href="index.html#about">About</a
+        ><a href="index.html#services">Services</a
+        ><a href="index.html#clients">Who We Serve</a
+        ><a href="index.html#contact">Contact</a>
+      </nav>
+      <a
+        class="top-wa"
+        href="https://wa.me/919345005902?text=Hello%20SENTKOM%2C%20I%20would%20like%20to%20make%20an%20enquiry."
+        target="_blank"
+        rel="noopener"
+        ><img class="whatsapp-icon" src="whatsapp-logo.png" alt="" />WhatsApp
+        ↗</a
+      >
+    </header>
+    <main class="service-detail">
+      <section class="detail-hero">
+        <p class="eyebrow" id="serviceNumber"></p>
+        <h1 id="serviceTitle"></h1>
+        <p class="detail-lead" id="serviceLead"></p>
+        <a class="btn" id="serviceWhatsApp" target="_blank" rel="noopener"
+          >Discuss this service ↗</a
+        >
+      </section>
+      <section class="detail-content">
+        <div class="detail-list">
+          <p class="eyebrow">WHAT WE CAN CREATE</p>
+          <h2>Services included<span>.</span></h2>
+          <ul id="serviceItems"></ul>
+        </div>
+        <aside class="detail-aside">
+          <p class="eyebrow">MADE FOR</p>
+          <h2>Who we help</h2>
+          <p id="serviceAudience"></p>
+          <a class="detail-contact" id="serviceEnquiry">Send an enquiry ↗</a>
+        </aside>
+      </section>
+      <section class="detail-next">
+        <p>Have a different requirement?</p>
+        <a href="index.html#services">Explore all SENTKOM services ↗</a>
+      </section>
+    </main>
+    <footer>
+      <b>SENT<span>KOM</span></b>
+      <p>Creative &amp; Technology Solutions</p>
+      <strong>IDEATE ✦ INNOVATE ✦ IMPACT</strong>
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> SENTKOM. All rights reserved.</span
+        ><a
+          href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=sentkom.official%40gmail.com&amp;su=SENTKOM%20Enquiry&amp;body=Hello%20SENTKOM%2C%0A%0AI%20would%20like%20to%20discuss%20a%20project.%0A%0A"
+          target="_blank"
+          rel="noopener"
+          >Email us</a
+        ><a href="index.html#home">Back to home ↑</a>
+      </div>
+    </footer>
+    <aside
+      class="student-offer-widget"
+      id="studentOfferWidget"
+      aria-label="Special offer for college students"
+      hidden
+    >
+      <button
+        class="student-offer-close"
+        id="studentOfferDismiss"
+        type="button"
+        aria-label="Close student offer"
+      >
+        &times;
+      </button>
+      <a class="student-offer-card" href="student-offer.html">
+        <span class="student-offer-label">COLLEGE STUDENT OFFER</span>
+        <span class="student-offer-message"
+          >Special support for your project</span
+        >
+        <span class="student-offer-link">See offer details ↗</span>
+      </a>
+    </aside>
+    <script src="script.js"></script>
+  </body>
+</html>
