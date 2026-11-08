@@ -4049,3 +4049,684 @@ body {
     transform: scale(1.02) translateY(-2px);
   }
 }
+
+.student-offer-page {
+  color: #14263e;
+  background: #f5f8fc;
+}
+
+.student-offer-page .student-offer-header {
+  position: relative;
+  height: 76px;
+  padding-inline: max(5%, calc((100% - 1240px) / 2));
+  background: #fff;
+  border-bottom-color: #e4ebf4;
+  box-shadow: 0 5px 22px rgba(13, 36, 68, 0.06);
+}
+
+.student-offer-page .student-offer-header .brand-logo {
+  width: 44px;
+  height: 44px;
+  padding: 3px;
+  object-fit: contain;
+  border: 0;
+  background: transparent;
+}
+
+.student-offer-page .student-offer-header .nav a {
+  color: #43536a;
+  font-size: 12px;
+}
+
+.student-offer-page .student-offer-header .nav a:hover {
+  color: #0875ed;
+}
+
+.student-offer-page .student-offer-header .student-offer-header-link {
+  padding: 10px 15px;
+  border: 0;
+  background: #0875ed;
+  color: #fff;
+  font-size: 11px;
+}
+
+.student-offer-page .student-offer-header .student-offer-header-link:hover {
+  background: #0759bd;
+  color: #fff;
+  box-shadow: 0 8px 18px rgba(8, 117, 237, 0.2);
+}
+
+.student-offer-page .student-offer-screen {
+  min-height: 0;
+  padding: 48px 20px 58px;
+  background:
+    radial-gradient(ellipse at 50% 0, rgba(42, 127, 238, 0.18), transparent 55%),
+    linear-gradient(180deg, #061c39 0%, #04182f 100%);
+}
+
+.student-offer-page .student-offer-scene {
+  min-height: 570px;
+}
+
+.student-offer-page .offer-card {
+  width: min(810px, 76%);
+  margin-top: 20px;
+}
+
+.student-offer-page .offer-card h1 {
+  font-size: clamp(3.6rem, 5vw, 5.6rem);
+}
+
+.student-offer-hero-copy {
+  max-width: 590px;
+  margin: 20px auto 0;
+  color: #4b607a;
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+.student-offer-page .offer-underline {
+  margin-top: 2px;
+  margin-bottom: 20px;
+}
+
+.student-offer-page .offer-button {
+  min-width: 280px;
+  padding: 16px 25px;
+  font-size: 18px;
+}
+
+.student-offer-page .offer-scroll-top {
+  display: grid;
+  place-items: center;
+  text-decoration: none;
+}
+
+.student-offer-content,
+.student-offer-section-heading,
+.student-offer-process-heading {
+  width: min(1120px, calc(100% - 48px));
+  margin-inline: auto;
+}
+
+.student-offer-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(280px, 0.7fr);
+  gap: clamp(34px, 7vw, 90px);
+  align-items: center;
+  padding: 88px 24px;
+  background: #fff;
+  scroll-margin-top: 24px;
+}
+
+.student-offer-eyebrow {
+  margin: 0 0 12px;
+  color: #0875ed;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1.8px;
+}
+
+.student-offer-intro h2,
+.student-offer-section-heading h2,
+.student-offer-process-heading h2,
+.student-offer-eligibility h2 {
+  margin: 0;
+  color: #0c203b;
+  font: 800 clamp(28px, 3.5vw, 42px) / 1.15 Manrope, sans-serif;
+  letter-spacing: -1.5px;
+}
+
+.student-offer-content > p:not(.student-offer-eyebrow),
+.student-offer-note > p:not(.student-offer-eyebrow),
+.student-offer-section-heading > p:not(.student-offer-eyebrow),
+.student-offer-process-heading > p:not(.student-offer-eyebrow),
+.student-offer-eligibility > div > p:not(.student-offer-eyebrow) {
+  color: #5c6e84;
+  font-size: 14px;
+  line-height: 1.75;
+}
+
+.student-offer-points {
+  display: grid;
+  gap: 16px;
+  margin-top: 26px;
+}
+
+.student-offer-points > div {
+  display: flex;
+  align-items: flex-start;
+  gap: 13px;
+}
+
+.student-offer-point-icon {
+  flex: 0 0 31px;
+  width: 31px;
+  height: 31px;
+  display: grid;
+  place-items: center;
+  border-radius: 9px;
+  background: #eaf4ff;
+  color: #0875ed;
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.student-offer-points b,
+.student-offer-points small {
+  display: block;
+}
+
+.student-offer-points b {
+  color: #152b47;
+  font-size: 13px;
+}
+
+.student-offer-points small {
+  margin-top: 3px;
+  color: #687a8e;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.student-offer-note {
+  padding: 28px;
+  border: 1px solid #dceaff;
+  border-radius: 14px;
+  background: linear-gradient(145deg, #f7fbff, #edf5ff);
+  box-shadow: 0 18px 40px rgba(21, 72, 131, 0.08);
+}
+
+.student-offer-note-icon {
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  background: #0875ed;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 800;
+}
+
+.student-offer-note h3 {
+  margin: 0;
+  color: #142b48;
+  font: 800 20px/1.3 Manrope, sans-serif;
+}
+
+.student-offer-note .student-offer-note-small {
+  margin: 22px 0 0;
+  padding-top: 17px;
+  border-top: 1px solid #d7e5f5;
+  color: #68798e;
+  font-size: 11px;
+  line-height: 1.65;
+}
+
+.student-offer-support {
+  padding: 82px 24px 90px;
+  background: #f3f7fc;
+}
+
+.student-offer-section-heading {
+  text-align: center;
+}
+
+.student-offer-section-heading > p:not(.student-offer-eyebrow) {
+  max-width: 620px;
+  margin: 14px auto 0;
+}
+
+.student-offer-support-grid {
+  width: min(1120px, calc(100% - 48px));
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin: 36px auto 0;
+}
+
+.student-offer-support-grid article {
+  min-height: 166px;
+  padding: 23px;
+  border: 1px solid #e0e9f4;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 10px 24px rgba(25, 55, 94, 0.04);
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.student-offer-support-grid article:hover {
+  transform: translateY(-3px);
+  border-color: #b6d6fb;
+  box-shadow: 0 15px 28px rgba(25, 86, 155, 0.1);
+}
+
+.student-offer-support-grid article > span {
+  color: #0875ed;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.student-offer-support-grid h3 {
+  margin: 12px 0 7px;
+  color: #172c48;
+  font: 800 16px/1.35 Manrope, sans-serif;
+}
+
+.student-offer-support-grid p {
+  margin: 0;
+  color: #62748b;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.student-offer-process {
+  display: grid;
+  grid-template-columns: minmax(240px, 0.8fr) minmax(0, 1.2fr);
+  gap: clamp(36px, 8vw, 110px);
+  align-items: center;
+  padding: 86px max(24px, calc((100% - 1120px) / 2));
+  background: #fff;
+  scroll-margin-top: 24px;
+}
+
+.student-offer-steps {
+  display: grid;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: offer-step;
+}
+
+.student-offer-steps li {
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr);
+  gap: 15px;
+  padding: 19px 0;
+  border-bottom: 1px solid #e5ecf4;
+}
+
+.student-offer-steps li:first-child {
+  padding-top: 0;
+}
+
+.student-offer-steps li > span {
+  width: 36px;
+  height: 36px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #eaf4ff;
+  color: #0875ed;
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.student-offer-steps h3 {
+  margin: 1px 0 4px;
+  color: #162b47;
+  font: 800 15px/1.35 Manrope, sans-serif;
+}
+
+.student-offer-steps p {
+  margin: 0;
+  color: #62748b;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.student-offer-eligibility {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 34px;
+  padding: 48px max(24px, calc((100% - 1120px) / 2));
+  background: #071b38;
+}
+
+.student-offer-eligibility > div {
+  max-width: 620px;
+}
+
+.student-offer-eligibility h2 {
+  color: #fff;
+  font-size: clamp(25px, 3vw, 34px);
+}
+
+.student-offer-eligibility > div > p:not(.student-offer-eyebrow) {
+  margin-bottom: 0;
+  color: #c3d1e2;
+  font-size: 13px;
+}
+
+.student-offer-eligibility .student-offer-eyebrow {
+  color: #7ab8ff;
+}
+
+.student-offer-contact {
+  flex: 0 0 auto;
+  display: grid;
+  gap: 15px;
+  min-width: 270px;
+  padding: 21px;
+  border: 1px solid #ffffff24;
+  border-radius: 12px;
+  background: #ffffff0c;
+  color: #fff;
+  text-decoration: none;
+}
+
+.student-offer-contact-copy b,
+.student-offer-contact-copy small {
+  display: block;
+}
+
+.student-offer-contact-copy b {
+  font: 800 15px Manrope, sans-serif;
+}
+
+.student-offer-contact-copy small {
+  margin-top: 5px;
+  color: #c3d1e2;
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.student-offer-contact-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 14px;
+  border-radius: 6px;
+  background: #0875ed;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 800;
+  transition: background 0.2s ease;
+}
+
+.student-offer-contact:hover .student-offer-contact-button {
+  background: #168dff;
+}
+
+.student-offer-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 24px max(24px, calc((100% - 1120px) / 2));
+  background: #04152c;
+  color: #fff;
+}
+
+.student-offer-footer > div:first-child > b {
+  font: 800 21px Manrope, sans-serif;
+}
+
+.student-offer-footer > div:first-child > b span {
+  color: #66b2ff;
+}
+
+.student-offer-footer > div:first-child > p {
+  margin: 1px 0 0;
+  color: #a9bad0;
+  font-size: 10px;
+}
+
+.student-offer-footer-links {
+  display: flex;
+  gap: 22px;
+}
+
+.student-offer-footer a {
+  color: #d3e6fb;
+  font-size: 11px;
+  text-decoration: none;
+}
+
+.student-offer-footer a:hover {
+  color: #fff;
+}
+
+.student-offer-footer > small {
+  color: #8ea3bd;
+  font-size: 10px;
+}
+
+@media (max-width: 900px) {
+  .student-offer-intro {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .student-offer-note {
+    max-width: 620px;
+  }
+
+  .student-offer-process {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding-block: 66px;
+  }
+}
+
+@media (max-width: 680px) {
+  .student-offer-page .student-offer-header {
+    height: 68px;
+    padding-inline: 4%;
+  }
+
+  .student-offer-page .student-offer-header .brand {
+    gap: 5px;
+  }
+
+  .student-offer-page .student-offer-header .brand-logo {
+    width: 36px;
+    height: 36px;
+  }
+
+  .student-offer-page .student-offer-header .brand-copy > b {
+    font-size: 18px;
+  }
+
+  .student-offer-page .student-offer-header .brand-copy small {
+    font-size: 7px;
+  }
+
+  .student-offer-page .student-offer-header .nav {
+    display: none;
+  }
+
+  .student-offer-page .student-offer-header .student-offer-header-link {
+    padding: 8px 9px;
+    font-size: 9px;
+  }
+
+  .student-offer-page .student-offer-screen {
+    padding: 32px 12px 42px;
+  }
+
+  .student-offer-page .student-offer-scene {
+    min-height: 510px;
+    padding: 24px 16px 10px;
+  }
+
+  .student-offer-page .offer-card {
+    width: 100%;
+    margin-top: 44px;
+  }
+
+  .student-offer-page .offer-card h1 {
+    margin-top: 24px;
+    font-size: clamp(2.35rem, 9vw, 3.5rem);
+  }
+
+  .student-offer-hero-copy {
+    max-width: 420px;
+    margin-top: 15px;
+    font-size: 12px;
+  }
+
+  .student-offer-page .offer-underline {
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+
+  .student-offer-page .offer-button {
+    width: min(100%, 290px);
+    min-width: 0;
+    padding: 14px 18px;
+    font-size: 15px;
+  }
+
+  .student-offer-page .offer-scroll-top {
+    top: 16px;
+    right: 16px;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+  }
+
+  .student-offer-intro,
+  .student-offer-support {
+    padding: 58px 20px;
+  }
+
+  .student-offer-content,
+  .student-offer-section-heading,
+  .student-offer-process-heading,
+  .student-offer-support-grid {
+    width: 100%;
+  }
+
+  .student-offer-intro h2,
+  .student-offer-section-heading h2,
+  .student-offer-process-heading h2,
+  .student-offer-eligibility h2 {
+    font-size: clamp(26px, 8vw, 34px);
+    letter-spacing: -1px;
+  }
+
+  .student-offer-support-grid {
+    grid-template-columns: 1fr;
+    gap: 11px;
+    margin-top: 25px;
+  }
+
+  .student-offer-support-grid article {
+    min-height: 0;
+    padding: 19px;
+  }
+
+  .student-offer-process {
+    padding: 58px 20px;
+  }
+
+  .student-offer-eligibility {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 22px;
+    padding: 42px 20px;
+  }
+
+  .student-offer-contact {
+    min-width: 0;
+  }
+
+  .student-offer-footer {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 14px;
+    padding: 24px 20px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .student-offer-support-grid article,
+  .student-offer-contact-button {
+    transition: none;
+  }
+}
+
+.student-offer-widget {
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.student-offer-widget .student-offer-card {
+  position: relative;
+  isolation: isolate;
+  min-height: 96px;
+  padding: 14px 40px 14px 24px;
+  overflow: visible;
+  border-radius: 0;
+  background: transparent;
+}
+
+.student-offer-widget .student-offer-card::before,
+.student-offer-widget .student-offer-card::after {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  content: "";
+  pointer-events: none;
+  clip-path: polygon(8% 0, 100% 0, 92% 100%, 0 100%);
+}
+
+.student-offer-widget .student-offer-card::before {
+  inset: 4px -3px -4px 3px;
+  background: linear-gradient(120deg, #168fff, #0755c5 72%, #043a8e);
+  filter: drop-shadow(0 9px 14px rgba(7, 86, 180, 0.2));
+}
+
+.student-offer-widget .student-offer-card::after {
+  background:
+    linear-gradient(135deg, transparent 0 72%, rgba(8, 117, 237, 0.1) 72% 73%, transparent 73%),
+    linear-gradient(115deg, transparent 0 82%, rgba(8, 117, 237, 0.12) 82% 83%, transparent 83%),
+    linear-gradient(135deg, #fff 0%, #f5faff 100%);
+}
+
+.student-offer-widget .student-offer-label,
+.student-offer-widget .student-offer-message,
+.student-offer-widget .student-offer-link {
+  position: relative;
+  z-index: 1;
+}
+
+.student-offer-widget .student-offer-label {
+  letter-spacing: 1px;
+}
+
+.student-offer-widget .student-offer-close {
+  top: 8px;
+  right: 12px;
+  z-index: 2;
+  border-color: #c9e0ff;
+  background: #fff;
+  color: #0758c9;
+}
+
+.student-offer-widget .student-offer-close:hover {
+  background: #eaf4ff;
+}
+
+.student-offer-widget .student-offer-card:hover::before {
+  background: linear-gradient(120deg, #39a5ff, #0864db 72%, #0649a6);
+}
+
+@media (max-width: 680px) {
+  .student-offer-widget .student-offer-card {
+    min-height: 92px;
+    padding: 13px 36px 13px 20px;
+  }
+}
